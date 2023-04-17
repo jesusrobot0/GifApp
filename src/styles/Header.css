@@ -1,0 +1,8 @@
+.header {
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.header__title {
+  font-size: 1.5rem;
+}
