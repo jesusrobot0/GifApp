@@ -1,0 +1,25 @@
+.FormCategory {
+  padding: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.FormCategory__input {
+  width: 80%;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border: 1px solid var(--grayHigh);
+}
+
+.FormCategory__button {
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--white);
+  background: var(--yellow);
+  cursor: pointer;
+}
