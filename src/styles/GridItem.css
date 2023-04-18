@@ -1,0 +1,43 @@
+.GridItem {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.GridItem__description {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.GridItem__description p {
+  margin-bottom: 3px;
+}
+
+.GridItem__description span {
+  font-weight: lighter;
+  color: #ccc;
+}
+
+.GridItem__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.GridItem__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0) 50%
+  );
+}

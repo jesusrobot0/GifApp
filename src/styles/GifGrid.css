@@ -1,4 +1,16 @@
 .Grid {
-  border-bottom: 1px solid var(--gray);
   padding: 40px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.Grid__title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.Grid__list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
 }
