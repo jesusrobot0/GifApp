@@ -10,6 +10,7 @@ export const getGifs = async (category) => {
     title: gif.title,
     username: gif.username,
     url: gif.images.downsized_medium.url,
+    urlShort: gif.bitly_url,
   }))
 
   return gifs
